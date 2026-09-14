@@ -398,14 +398,14 @@ System.out.println(count);
 
 > Something to think about: is code _more_ or _less_ readable when we inline variables in this way?
 
-- [ ] Modify the `multiples` method so that it takes **three** parameters:
+- [X] Modify the `multiples` method so that it takes **three** parameters:
     - an integer `n`,
     - an integer `a`,
     - an integer `b`.
 
 These will all be positive integers.
 
-- [ ] Generalize the code so that it uses:
+- [X] Generalize the code so that it uses:
     - `n` in place of where 1000 was previously used
     - `a` where 3 was used
     - `b` where 5 was used.
@@ -423,9 +423,9 @@ and then `Add Junit 5.8.1 to classpath`. Then you should be able to run the test
 After you have run the tests once, you may see a play button appear beside `MultiplesTest`
 in this file. You can then click that to conveniently rerun the tests.
 
-- [ ] Make sure the tests all pass in the file.
+- [X] Make sure the tests all pass in the file.
 
-- [ ] If you didn't yet, also `add`, `commit`, and `push` this `Multiples.java` file to save your work
+- [X] If you didn't yet, also `add`, `commit`, and `push` this `Multiples.java` file to save your work
   and upload it to your GitHub repo.
 
 ### Extra Task 1.2: Overloading `multiples`
@@ -460,13 +460,13 @@ def multiples(n: int = 1000, a: int = 3, b: int = 5) -> int:
 Once you complete these steps, you can uncomment the last test in [`test/lab1/MultiplesTest.java`](test/lab1/MultiplesTest.java)
 and run the tests in it to check your work — debugging `MultiplesTest` as needed.
 
-- [ ] Use git to push your updated `Multiples.java` file to GitHub.
+- [X] Use git to push your updated `Multiples.java` file to GitHub.
 
 ## Extra Task 2: Reduce a number to 0
 
 Here is one more small coding problem similar to the Multiples problem for extra practice.
 
-- [ ] Right-click on `lab1` and select `New —> Java Class`. Name it `Reduce`.
+- [X] Right-click on `lab1` and select `New —> Java Class`. Name it `Reduce`.
 
 Starting with a number n, if n is even divide it by 2. If n is odd, subtract 1. Repeat.
 
@@ -474,16 +474,16 @@ For example, if you start with n = 2, the answer is 2.
 
 > Details: 2 (even, divide by 2) --> 1 (odd, subtract 1) --> 0.
 
-- [ ] In `Reduce.java`, write a main method that prints how many steps it takes to reach 0 if you start at 100.
+- [X] In `Reduce.java`, write a main method that prints how many steps it takes to reach 0 if you start at 100.
   Add this file to your project, commit, and push.
 
-- [ ] Similar to what you did for `Multiples.java`, modify the code so that you can easily test it by extracting
+- [X] Similar to what you did for `Multiples.java`, modify the code so that you can easily test it by extracting
 a helper method called `reduce`. Then generalize that helper to take in `n` as a parameter.
 
 Once you complete these steps, you can copy the `ReduceTest.java` file into the `test/lab1` directory
 and run the tests — debugging as needed.
 
-- [ ] Finally, `add`, `commit`, and `push` your `Reduce.java`.
+- [X] Finally, `add`, `commit`, and `push` your `Reduce.java`.
 
 ## Further practice
 
@@ -502,7 +502,7 @@ these kinds of technical interview questions!
 
 ### Checking your logs
 
-- [ ] Check with your team to see how many commits you each made during the lab in your FizzBuzz repo.
+- [X] Check with your team to see how many commits you each made during the lab in your FizzBuzz repo.
   You can view the log of commits on GitHub or use the `git log` command to view a summary of the commits in the repository.
 
 ---
